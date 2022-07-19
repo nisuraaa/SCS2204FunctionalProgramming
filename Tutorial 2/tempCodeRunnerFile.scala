@@ -1,0 +1,1 @@
+ Int) : Int = revenue(price) - cost(price)

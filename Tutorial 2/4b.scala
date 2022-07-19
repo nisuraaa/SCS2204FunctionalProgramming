@@ -1,7 +1,15 @@
-def attendees(price : Int) : Int = 120 + ( 15  - price) / 5 * 20
+object q4b{
 
-def revenue(price : Int) : Int = attendees(price) * price
+    def attendees(price : Int) : Int = return(120 + ( 15  - price) / 5 * 20)
 
-def cost(price : Int): Int = 500 + 3 * attendees(price)
+    def revenue(price : Int) :Int =  return(attendees(price) * price)
 
-def profit(price : Int) : Int = revenue(price) - cost(price)
+    def cost(price : Int): Int = return(500 + 3 * attendees(price))
+
+    def profit(price : Int) : Int = return(revenue(price) - cost(price))
+
+    def main(args :Array[String]) = {
+        println(profit(40))
+        println(profit(30))
+    }
+}
