@@ -1,6 +1,11 @@
 object q4{
     def main(Args: Array[String])={
-        println(isEven(10))
+        val n1 = 10
+        if(isEven(n1)==1){
+            println("Number is even")
+        }else{
+            println("Number is odd")
+        }
     }
 
     def isEven(n : Int): Int = {

@@ -1,3 +1,5 @@
+
+
 object q6{
     def main(Args: Array[String]) = {
         val n = 10
