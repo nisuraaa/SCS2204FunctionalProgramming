@@ -1,4 +1,4 @@
-object q3andq4 extends App{
+object q3 extends App{
     //data structure for account
     class Account(id:String, accno:Int, balance:Int) {
         val nic:String = id
@@ -7,7 +7,7 @@ object q3andq4 extends App{
 
         //method which transfer money from one acccount to another
         def transfer(a:Account, amount:Int) = {
-            val transferacc = q3andq4.find(a.accountno,Bank)
+            val transferacc = q3.find(a.accountno,Bank)
             if(bal<0){
                 println("Insufficient balance")
             }
