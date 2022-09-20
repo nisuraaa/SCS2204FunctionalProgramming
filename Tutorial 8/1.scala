@@ -6,6 +6,10 @@ object q1 {
     var y = Point(3, 4)
     var z = x.add(y)
     z.move(1, 2)
+    println(z)
+  
+    println(x.distance(y))
+
     x.invert()
     println(x)
   }
@@ -32,4 +36,5 @@ case class Point(var x: Int, var y: Int) {
     this.x = this.y
     this.y = temp
   }
+
 }
